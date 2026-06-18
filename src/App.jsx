@@ -8,11 +8,11 @@ function Description() {
 
 function App() {
   return (
-    <div>
+    <>
       <h1>This is Heading</h1>
       <Title />
       <Description />
-    </div>
+    </>
   );
 }
 
