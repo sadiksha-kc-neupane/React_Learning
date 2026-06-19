@@ -1,9 +1,9 @@
-function Product() {
+function Product({ title, description }) {
   return (
-    <>
-      <h1>This is Product</h1>
-      <h4>This is Description</h4>
-    </>
+    <div className="Product">
+      <h1>{title}</h1>
+      <h4>{description}</h4>
+    </div>
   );
 }
 

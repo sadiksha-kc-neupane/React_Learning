@@ -12,8 +12,6 @@ function App() {
     <>
       <Product_Desc />
       <Product_Desc />
-      <Product_Desc />
-      <Product_Desc />
     </>
   );
 }
