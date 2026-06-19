@@ -1,10 +1,10 @@
 function Product() {
-  return <h1>This is Product</h1>;
+  return (
+    <>
+      <h1>This is Product</h1>
+      <h4>This is Description</h4>
+    </>
+  );
 }
 
-function Description() {
-  return <h5>This is Description</h5>;
-}
-
-export { Product };
-export { Description };
+export default Product;
