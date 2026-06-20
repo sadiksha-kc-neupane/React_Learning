@@ -2,11 +2,13 @@ import Product from "./product.jsx";
 import "./Product_Desc.css";
 
 function Product_Desc() {
+  let features = ["hitech", "fast", "durable"];
   return (
     <div className="Product_Desc">
       <Product
         title={"laptop"}
         description={"This is Asus Zenbook  i5 model with 8/256 gb storage"}
+        features={features}
       />
       <Product title={"TV"} description={"This is a Smart TV"} />
       <Product
