@@ -1,10 +1,11 @@
-function Product({ title, description, features2 }) {
+function Product({ title, description, features = [] }) {
   // console.log(features);
+  const lists = features.map((feature) => <li>{feature}</li>);
   return (
     <div className="Product">
       <h1>{title}</h1>
       <h4>{description}</h4>
-      <p>{features2}</p>
+      <p>{lists}</p>
     </div>
   );
 }
