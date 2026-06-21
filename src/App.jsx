@@ -11,7 +11,6 @@ function App() {
   return (
     <>
       <Product_Desc />
-      <Product_Desc />
     </>
   );
 }

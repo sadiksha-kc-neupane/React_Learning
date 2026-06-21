@@ -13,12 +13,15 @@ function Product_Desc() {
       <Product
         title={"laptop"}
         description={"This is Asus Zenbook  i5 model with 8/256 gb storage"}
-        features={features}
+        price={80000}
+
+        // features={features}
       />
-      <Product title={"TV"} description={"This is a Smart TV"} />
+      <Product title={"TV"} description={"This is a Smart TV"} price={30000} />
       <Product
         title={"Smart Board"}
         description={"This is Smart Board ,with OPS, i7"}
+        price={70000}
       />
     </div>
   );
