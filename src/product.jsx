@@ -1,9 +1,12 @@
+import Price from "./price";
 import "./Product.css";
 
-function Product() {
+function Product(title, description, price) {
   return (
     <div className="Product">
-      <p>Product</p>
+      <h3>Title</h3>
+      <p>Description</p>
+      <Price />
     </div>
   );
 }
